@@ -13,3 +13,8 @@ Pegando como exemplo a *index.php*, ela puxa o Cabeçalho e o Rodapé, justament
 
 Cada class/POO do PHP é separado em seu arquivo, cada uma possui a Class do Objeto em si e a Class para conexão ao Banco de Dados DAO. 
 
+### Ideias do sistema
+1. Cadastrar planos aceitos na "Clinica"
+2. Cadastrar médicos, com planos atendidos e horários de atendimento
+3. Cadastrar Clientes/Pacientes
+4. Marcar Consultas
