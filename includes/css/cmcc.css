@@ -1,0 +1,19 @@
+body {
+    padding-top: 50px;
+}
+.principal {
+    padding: 40px 15px;
+    text-align: center;
+}
+
+.textocentral {
+    text-align: center;
+    font-weight: bold;
+}
+
+.loading {
+    display: none;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+}
