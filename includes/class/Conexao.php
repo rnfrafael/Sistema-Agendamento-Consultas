@@ -3,10 +3,11 @@
 class Conexao extends PDO {
 
     //public static $instance;
-    private $host = "mysql:host=mysql.utopiastudio.com.br;";
-    private $user = "utopiastudio";
-    private $password = "0012300";
-    private $database = "dbname=utopiastudio;";
+    //Defina aqui as configurações para conexão com Banco de Dados, Host, User, Senha, Nome BD
+    private $host = "mysql:host=hostmysql;";
+    private $user = "usuario";
+    private $password = "senhadoBD";
+    private $database = "dbname=nomebancodedados;";
     private $charset = "charset=utf8";
     public $link;
 
@@ -29,7 +30,7 @@ class Conexao extends PDO {
     /* public static function getInstance() {
       if (!isset(self::$instance)) {
       try {
-      self::$instance = new PDO("mysql:host=mysql.hostinger.com.br;dbname=u550151642_cmcc;charset=utf8", "u550151642_cmcc", "0012300");
+      self::$instance = new PDO("mysql:host=mysql_host;dbname=nome_banco_dados;charset=utf8", "usuario_banco_dados", "senha_banco_dados");
       self::$instance->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
       } catch (Exception $ex) {
       echo "Erro: " . $ex->getMessage();
