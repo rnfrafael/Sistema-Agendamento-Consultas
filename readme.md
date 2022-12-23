@@ -1,3 +1,23 @@
+# Sistema de Agendamento de Consultas
+
+O objetivo desse projeto na época (2016) foi de complementar o estudo do curso de PHP feito na Alura e também transformar em um programa vendável.
+O objetivo era usar uma clínica médica próxima(de um amigo) como ambiente de testes mais robusto.
+No final minha empresa tomou meu tempo e acabei me afastado da programação.
+
+| :placard: Vitrine.Dev |     |
+| -------------  | --- |
+| :sparkles: Nome        | **Sistema de Agendamento de Consultas**
+| :label: Tecnologias | JS, JQuery, AJAX, PHP, MySQL, HTML, CSS
+| :rocket: URL         | https://branjo.com.br/rafael/cmcc/
+| :fire: Desafio     | 
+
+<!-- Inserir imagem com a #vitrinedev ao final do link -->
+![print-tela-lista-paciente](https://branjo.com.br/rafael/print.png#vitrinedev)
+
+
+# Detalhes do projeto
+
+
 ## Sistema de agendamento de consultas para Clinicas<br>
 Foi um projeto criado quando iniciei meus estudos via Alura, antes desse período todo meu conhecimento foi 'autodidata', então era tudo muito bagunçado.<br>
 Com ajuda dos cursos consegui deixar o código um pouco mais legível e acessível para outros entenderem, além de iniciar o aprendizado a POO no PHP.<br>
@@ -33,3 +53,4 @@ Cada class/POO do PHP é separado em seu arquivo, cada uma possui a Class do Obj
 2. Cadastrar médicos, com planos atendidos e horários de atendimento
 3. Cadastrar Clientes/Pacientes
 4. Marcar Consultas
+
